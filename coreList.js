@@ -11,6 +11,7 @@ module.exports = [
   "events",
   "http",
   "https",
+  "irc",
   "os",
   "path",
   "process",

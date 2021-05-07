@@ -8,6 +8,7 @@
   "domain": "domain-browser",
   "http": "stream-http",
   "https": "https-browserify",
+  "irc": "react-native-irc",
   "os": "os-browserify",
   "path": "path-browserify",
   "querystring": "querystring-es3",
