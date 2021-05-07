@@ -11,6 +11,7 @@ module.exports = {
   "events": "~1.0.0",
   "stream-http": "^1.2.0",
   "https-browserify": "~0.0.0",
+  "react-native-irc": "https://github.com/zpv/react-native-irc.git",
   "os-browserify": "~0.1.1",
   "path-browserify": "~0.0.0",
   "process": "~0.11.0",
