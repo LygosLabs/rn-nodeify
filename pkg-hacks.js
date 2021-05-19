@@ -533,6 +533,13 @@ var hackers = [
     hack: function(file, contents) {
       return contents.replace(/BigInt\(2\) \*\* BigInt\(64\)/g, "18446744073709551615n")
     }
+  },
+  {
+    name: "@liquality/bitcoin-wallet-provider remove `use strict`",
+    regex: [/\@liquality\/bitcoin\-wallet\-provider\/dist\/index\.js$/],
+    hack: function(file, contents) {
+      return contents.replace(/\"use strict\"\;/g, "")
+    }
   }
 ]
 
