@@ -540,6 +540,13 @@ var hackers = [
     hack: function(file, contents) {
       return contents.replace(/(\d+)n/g, 'BigInt("$1")')
     }
+  },
+  {
+    name: '@node-lightning/bufio remove meta function name',
+    regex: [/Buffer(Reader|Writer).js/],
+    hack: function(file, contents) {
+      return contents.replace(/\(this\.(.*)\.name/g, '("$1"')
+    }
   }
 ]
 
