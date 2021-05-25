@@ -533,6 +533,13 @@ var hackers = [
     hack: function(file, contents) {
       return contents.replace(/BigInt\(2\) \*\* BigInt\(64\)/g, "18446744073709551615n")
     }
+  },
+  {
+    name: '@node-lightning replace BigInt literal',
+    regex: [/\@node\-lightning\/.*\/.*\.js/],
+    hack: function(file, contents) {
+      return contents.replace(/(\d+)n/g, 'BigInt("$1")')
+    }
   }
 ]
 
