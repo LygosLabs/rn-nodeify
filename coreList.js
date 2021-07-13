@@ -3,6 +3,7 @@ module.exports = [
   "zlib",
   "buffer",
   "inherits",
+  "coinselect",
   "console",
   "constants",
   "crypto",

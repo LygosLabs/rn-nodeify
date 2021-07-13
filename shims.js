@@ -3,6 +3,7 @@ module.exports = {
   "browserify-zlib": "~0.1.4",
   "buffer": "^4.9.1",
   "inherits": "^2.0.1",
+  "@atomicfinance/coinselect": "^3.1.11",
   "console-browserify": "^1.1.0",
   "constants-browserify": "^1.0.0",
   "react-native-crypto": "^2.1.0",
