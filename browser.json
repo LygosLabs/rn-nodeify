@@ -1,6 +1,7 @@
 {
   "zlib": "browserify-zlib",
   "coinselect": "@atomicfinance/coinselect",
+  "coinselect/accumulative": "@atomicfinance/coinselect/accumulative",
   "console": "console-browserify",
   "constants": "constants-browserify",
   "crypto": "react-native-crypto",

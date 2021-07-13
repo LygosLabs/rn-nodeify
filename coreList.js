@@ -4,6 +4,7 @@ module.exports = [
   "buffer",
   "inherits",
   "coinselect",
+  "coinselect/accumulative",
   "console",
   "constants",
   "crypto",
