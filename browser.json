@@ -11,6 +11,7 @@
   "http": "@tradle/react-native-http",
   "https": "https-browserify",
   "irc": "react-native-irc",
+  "irc-upd": "react-native-irc",
   "os": "react-native-os",
   "path": "path-browserify",
   "querystring": "querystring-es3",

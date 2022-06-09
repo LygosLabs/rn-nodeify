@@ -14,6 +14,7 @@ module.exports = [
   "http",
   "https",
   "irc",
+  "irc-upd",
   "os",
   "path",
   "process",
