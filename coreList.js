@@ -20,7 +20,6 @@ module.exports = [
   "process",
   "punycode",
   "querystring",
-  "fs",
   "dgram",
   // "readable-stream",
   "stream",

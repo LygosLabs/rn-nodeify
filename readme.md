@@ -42,12 +42,12 @@ rn-nodeify --install --hack
 
 ```bash
 # install specific shims
-rn-nodeify --install "fs,dgram,process,path,console"
+rn-nodeify --install "dgram,process,path,console"
 ```
 
 ```bash
 # install specific shims and hack
-rn-nodeify --install "fs,dgram,process,path,console" --hack
+rn-nodeify --install "dgram,process,path,console" --hack
 ```
 
 It is recommended to add this command to the "postinstall" script in your project's package.json
@@ -55,7 +55,7 @@ It is recommended to add this command to the "postinstall" script in your projec
 ```json
 "scripts": {
   "start": "node node_modules/react-native/local-cli/cli.js start",
-  "postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack"
+  "postinstall": "rn-nodeify --install dgram,process,path,console --hack"
 }
 ```
 
